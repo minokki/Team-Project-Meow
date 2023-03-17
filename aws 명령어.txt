@@ -1,0 +1,13 @@
+nohup java jar meow.jar &    --서버 계속 켜기 
+
+ps -ef | grep meow  --실행중인 프로젝트 검색
+kill -9 포트번호    --실행중인 서버 끄기 
+
+netstat -a -o 를 입력하고 엔터 누릅니다.
+taskkill /f /pid PID번호 를 입력하고 엔터 누릅니다.
+
+
+db
+spring.datasource.url=jdbc:mariadb://3.39.94.191:3306/meow
+spring.datasource.username=meow
+spring.datasource.password=midnight24

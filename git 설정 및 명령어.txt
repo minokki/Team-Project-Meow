@@ -1,0 +1,536 @@
+1. Git 설치
+https://git-scm.com/ 로 이동해서 Git을 다운로드합니다.
+⭐️ 설치과정에서 Git Bash를 반드시 포함시켜주세요!
+
+Git 사용에 적합한 터미널
+리눅스/맥(유닉스)에서 사용되는 CLI 명령어들을 윈도우에서 사용 가능 - 타 프로그래밍에도 유용
+기본 설정된 그대로 설치를 진행하시면 됩니다.
+git-bash
+
+
+설치 후 Git Bash에서 아래 명령어로 테스트해보세요.
+git --version
+
+아래 명령어를 한 번 입력해주세요!
+git config --global core.autocrlf true 
+협업시 윈도우와 맥에서 엔터 방식 차이로 인한 오류를 방지합니다.
+
+2. SourceTree 설치
+https://www.sourcetreeapp.com/ - Git을 GUI로 다룰 수 있도록 해주는 툴입니다.
+
+기타: GitHub Desktop, GitKraken 등 (https://git-scm.com/downloads/guis 참조)
+
+설치시 BitBucket 계정 관련은 건너뛰기하셔도 좋습니다.
+
+3. VS Code 설치
+https://code.visualstudio.com/ - 가장 인기있는 코드 에디터 중 하나입니다.
+터미널 메뉴에서 새 터미널 열어보기
+
+프로그래밍 중 바로 Git 명령어 사용
+대부분의 타 에디터/IDE에서도 터미널 기능 제공
+
+
+4. VS Code의 기본 터미널을 Git Bash로 설정
+Git 뿐 아니라 다른 프로그래밍 작업에 있어서도 유용
+
+VS Code에서 Ctrl + Shift + P
+Select Default Profile 검색하여 선택
+Git Bash 선택
+터미널에서 +로 새 창을 열어서 기본으로 Git Bash가 설정된 것 확인
+ Git Bash를 C 드라이브에 설치해야 이 설정이 가능합니다.
+
+Git 등 프로그래밍 관련 소프트웨어들은 VS Code 뿐 아니라 기타 연계할 프로그램들에서도 C 드라이브에 설치된 것으로 간주되므로, C 드라이브에 설치해야 위 문제를 비롯한 어려움을 겪지 않을 수 있습니다.
+
+ 머티리얼 테마
+VS Code에서 강의 영상의 화면과 같이 파일 탐색기(파일 아이콘들) 부분이 보이게 하려면
+왼쪽의 확장 탭(블럭 모양 아이콘)에서 Material Icon Theme 테마를 검색하여 설치하세요.
+
+
+
+git bash에서 설정
+git config --global user.name "이름" 		유저이름
+git config --global user.email "이메일"		유저 이메일
+git config --global init.defaultBranch main 설정
+
+
+vscode 
+
+현재 폴더 상황을 깃에 관점으로 보여주는 것
+git status
+
+
+secrets.yaml
+id: admin
+pw: 1234abcd 
+
+git이 파일을 읽지 않고 무시하게 만든다(보안상 위험한 것들을 여기에 추가)
+.gitignore
+
+.gitignore 파일 생성
+secrets.yaml
+
+다시 상태 확인
+git status
+
+
+# 이렇게 #를 사용해서 주석
+
+# 모든 file.c
+file.c
+
+# 최상위 폴더의 file.c
+/file.c
+
+# 모든 .c 확장자 파일
+*.c
+
+# .c 확장자지만 무시하지 않을 파일
+!not_ignore_this.c
+
+# logs란 이름의 파일 또는 폴더와 그 내용들
+logs
+
+# logs란 이름의 폴더와 그 내용들
+logs/
+
+# logs 폴더 바로 안의 debug.log와 .c 파일들
+logs/debug.log
+logs/*.c
+
+# logs 폴더 바로 안, 또는 그 안의 다른 폴더(들) 안의 debug.log
+logs/**/debug.log
+
+
+git commit
+
+Vi 입력 모드로 진입 - Vim 강좌
+작업	Vi 명령어	상세
+입력 시작	i	명령어 입력 모드에서 텍스트 입력 모드로 전환
+입력 종료	ESC	텍스트 입력 모드에서 명령어 입력 모드로 전환
+저장 없이 종료	:q	
+저장 없이 강제 종료	:q!	입력한 것이 있을 때 사용
+저장하고 종료	:wq	입력한 것이 있을 때 사용
+위로 스크롤	k	git log등에서 내역이 길 때 사용
+아래로 스크롤	j	git log등에서 내역이 길 때 사용
+
+FIRST COMMIT 입력한 뒤 저장하고 종료
+
+커밋 메시지까지 함께 작성하기
+git commit -m "FIRST COMMIT"
+
+아래 명령어와 소스트리로 확인
+git log
+
+종료는 :q
+
+git diff
+
+작업	Vi 명령어	상세
+위로 스크롤	k	git log등에서 내역이 길 때 사용
+아래로 스크롤	j	git log등에서 내역이 길 때 사용
+끄기	:q	:가 입력되어 있으므로 q만 눌러도 됨
+
+캡슐에 담기
+git add .
+
+git status로 확인
+git commit -m "Replace Lions with Leopards"
+
+💡 TIP add와 commit 한꺼번에
+git commit -am "(메시지)"
+🛑 새로 추가된(untracked) 파일이 없을 때 한정
+
+Git에서 과거로 돌아가는 두 방식
+reset : 원하는 시점으로 돌아간 뒤 이후 내역들을 지웁니다.
+revert : 되돌리기 원하는 시점의 커밋을 거꾸로 실행합니다.
+
+.git 폴더를 복사해두기
+
+맥에서 숨김 파일 보기: command + shift + .
+.git 폴더 없앤 다음 git 상태 확인해보기
+
+
+2. reset 사용해서 과거로 돌아가기
+아래 명령어로 커밋 내역 확인
+git log
+
+되돌아갈 시점: Add team Cheetas의 커밋 해시 복사
+:q로 빠져나가기
+git reset --hard (돌아갈 커밋 해시)
+
+reset의 옵션(--hard 등)은 섹션 5에서 다룰 것
+
+3. reset 하기 전 시점으로 복원해보기
+백업해 둔 .git 폴더 사용
+
+.git 폴더 복원
+git log, git status로 상태 확인
+아래 명령어로 현 커밋 상태로 초기화
+git reset --hard
+💡 뒤에 커밋 해시가 없으면 마지막 커밋을 가리킴
+lions.yaml 삭제
+
+4. revert 로 과거의 커밋 되돌리기
+Add George to Tigers의 커밋 해시 구하기
+
+아래 명령어로 revert
+git revert (되돌릴 커밋 해시)
+
+:wq로 커밋 메시지 저장
+
+
+🎯 Replace Lions with Leopards의 커밋 되돌려보기
+이후 leopards.yaml 수정한 내역 때문에 충돌
+
+git rm leopards.yaml로 Git에서 해당 파일 삭제
+git revert --continue로 마무리
+:wq로 커밋 메시지 저장
+
+ reset 사용해서 revert 전으로 되돌아가기
+
+💡 커밋해버리지 않고 revert하기
+git revert --no-commit (되돌릴  커밋 해시)
+
+원하는 다른 작업을 추가한 다음 함께 커밋
+취소하려면 git reset --hard
+
+1. 변경사항 만들고 커밋하기
+leopards.yaml 삭제
+.gitignore에 *.config 추가
+hello.txt 추가 (내용 자유)
+커밋 메시지: Commit with SourceTree
+
+맥에서는 체크표시로 add
+
+logs
+
+
+
+2. revert
+Add George to Tigers의 수정사항 되돌려보기
+해당 커밋에 마우스 우클릭 - 커밋 되돌리기
+
+3. reset
+Replace Cheetas with Panthers 시점으로 되돌려보기
+해당 커밋에 마우스 우클릭 - ... 이 커밋으로 초기화
+선택지에서 Hard 선택
+
+
+ Revert시 충돌 해결
+지난 강에서 revert시 일어났던 충돌을 소스트리에서 해결하는 방법입니다.
+
+A. 윈도우의 경우
+replace lions with leopards 커밋을 되돌리기합니다.
+01
+
+
+충돌이 일어남을 알려주는 경고창이 뜹니다.
+02
+
+
+스테이지되지 않은 leopards.yaml을 우클릭하고 충돌 해결에서 저장소 것을 선택합니다.
+03
+
+
+메시지를 입력하고 커밋을 하면 완료됩니다.
+04
+
+
+B. 맥의 경우
+04
+
+맥의 소스트리는 해당 상황에 대한 기능이 미비하여
+위와 같은 오류 팝업이 나타납니다.
+
+때문에 팝업에 나와 있듯, CLI에서 git rm (파일명) 명령어로 해당 파일을 지운 뒤
+git commit을 입력하여 수동으로 해결해주어야 합니다.
+
+Branch: 분기된 가지 (다른 차원)
+프로젝트를 하나 이상의 모습으로 관리해야 할 때
+
+예) 실배포용, 테스트서버용, 새로운 시도용
+여러 작업들이 각각 독립되어 진행될 때
+
+예) 신기능 1, 신기능 2, 코드개선, 긴급수정...
+각각의 차원에서 작업한 뒤 확정된 것을 메인 차원에 통합
+
+이 모든 것을 하나의 프로젝트 폴더에서 진행할 수 있도록!
+
+
+1. 브랜치 생성 / 이동 / 삭제하기
+add-coach란 이름의 브랜치 생성
+git branch add-coach
+
+브랜치 목록 확인
+git branch
+
+add-coach 브랜치로 이동
+git switch add-coach
+checkout 명령어가 Git 2.23 버전부터 switch, restore로 분리
+
+💡 브랜치 생성과 동시에 이동하기
+git switch -c new-teams
+기존의 git checkout -b (새 브랜치명)
+
+🗑 브랜치 삭제하기
+git branch -d (삭제할 브랜치명)
+to-delete란 브랜치 만들고 삭제해보기
+
+지워질 브랜치에만 있는 내용의 커밋이 있을 경우
+즉 다른 브랜치로 가져오지 않은 내용이 있는 브랜치를 지울 때는
+-d 대신 -D(대문자)로 강제 삭제해야 합니다.
+git branch -D (강제삭제할 브랜치명)
+
+
+✏️ 브랜치 이름 바꾸기
+git branch -m (기존 브랜치명) (새 브랜치명)
+
+지워질 브랜치에만 있는 내용의 커밋이 있을 경우
+즉 다른 브랜치로 가져오지 않은 내용이 있는 브랜치를 지울 때는
+-d 대신 -D(대문자)로 강제 삭제해야 합니다.
+
+
+2. 각각의 브랜치에서 서로 다른 작업해보기
+A. main 브랜치
+Leopards의 members에 Olivia 추가
+
+커밋 메시지: Add Olivia to Leopards
+
+Panthers의 members에 Freddie 추가
+
+커밋 메시지: Add Freddie to Panthers
+
+⭐️ add-coach 브랜치로 이동하여 해당 코드들 확인
+
+
+B. add-coach 브랜치
+ 실습 전 주의사항!
+실습시 줄바꿈 등의 세부사항도 영상과 똑같이 해주세요!
+예) coach와 manager 사이에 한 줄 공백이 있는 것
+이후의 실습에서 영상과의 사소한 차이로 충돌이 발생할 수 있습니다.
+
+
+Tigers의 매니저 정보 아래 coach: Grace 추가
+
+커밋 메시지: Add Coach Grace to Tigers
+
+Leopards의 매니저 정보 아래 coach: Oscar 추가
+
+커밋 메시지: Add Coach Oscar to Leopards
+
+Panthers의 매니저 정보 아래 coach: Teddy 추가
+
+커밋 메시지: Add Coach Teddy to Panthers
+
+
+C. new-teams 브랜치
+pumas.yaml 추가
+
+커밋 메시지: Add team Pumas
+team: Pumas
+
+manager: Jude
+
+members:
+- Ezra
+- Carter
+- Finn
+
+jaguars.yaml
+team: Jaguars
+
+manager: Stanley
+
+members:
+- Caleb
+- Harvey
+- Myles
+
+커밋 메시지: Add team Jaguars
+
+
+3. 결과 살펴보기
+git log: 위치한 브랜치에서의 내역만 볼 수 있음
+
+
+여러 브랜치의 내역 편리하게 보기
+git log --all --decorate --oneline --graph
+
+
+소스트리에서 확인
+
+
+서로 다른 브랜치를 합치는 두 방식
+merge : 두 브랜치를 한 커밋에 이어붙입니다.
+
+브랜치 사용내역을 남길 필요가 있을 때 적합한 방식입니다.
+다른 형태의 merge에 대해서도 이후 다루게 될 것입니다.
+rebase : 브랜치를 다른 브랜치에 이어붙입니다.
+
+한 줄로 깔끔히 정리된 내역을 유지하기 원할 때 적합합니다.
+이미 팀원과 공유된 커밋들에 대해서는 사용하지 않는 것이 좋습니다.
+
+1. merge로 합치기
+add-coach 브랜치를 main 브랜치로 merge
+
+main 브랜치로 이동
+아래의 명령어로 병합
+git merge add-coach
+
+:wq로 자동입력된 커밋 메시지 저장하여 마무리
+소스트리에서 확인
+
+💡 merge는 reset으로 되돌리기 가능
+merge도 하나의 커밋
+merge하기 전 해당 브랜치의 마지막 시점으로
+
+병합된 브랜치는 삭제
+삭제 전 소스트리에서 add-coach 위치 확인
+git branch -d add-coach
+
+2. rebase로 합치기
+new-teams 브랜치를 main 브랜치로 rebase
+
+new-teams 브랜치로 이동
+
+🛑 merge때와는 반대!
+아래의 명령어로 병합
+git rebase main
+
+소스트리에서 상태 확인
+
+main 브랜치는 뒤쳐져 있는 상황
+
+main 브랜치로 이동 후 아래 명령어로 new-teams의 시점으로 fast-forward
+git merge new-teams
+
+new-teams 브랜치 삭제
+
+브랜치 간 충돌
+파일의 같은 위치에 다른 내용이 입력된 상황
+상황 만들기
+conflict-1, conflict-2 브랜치 생성
+
+main 브랜치
+
+Tigers의 manager를 Kenneth로 변경
+Leopards의 coach를 Nicholas로 변경
+Panthers의 coach를 Shirley로 변경
+커밋 메시지: Edit Tigers, Leopards, Panthers
+
+conflict-1 브랜치
+
+Tigers의 manager를 Deborah로 변경
+커밋 메시지: Edit Tigers
+
+conflict-2 브랜치 1차
+
+Leopards의 coach를 Melissa로 변경
+커밋 메시지: Edit Leopards
+
+conflict-2 브랜치 2차
+
+Panthers의 coach를 Raymond로 변경
+커밋 메시지: Edit Panthers
+
+
+1. merge 충돌 해결하기
+git merge conflict-1로 병합을 시도하면 충돌 발생
+
+오류 메시지와 git status 확인
+VS Code에서 해당 부분 확인
+ 아래 기능 사라짐 노랗게 표시한 부분
+img
+VS Code의 현재 버전에서는 충돌 난 부분 상단의 글자 버튼들 (Accept Current...) 등이 나타나지 않습니다.
+충돌시 직접 해당 부분을 직접 타이핑해서 수정한 다음 merge를 계속 진행하시면 됩니다.
+
+
+당장 충돌 해결이 어려울 경우 아래 명령어로 merge 중단
+git merge --abort
+
+해결 가능 시 충돌 부분을 수정한 뒤 git add ., git commit으로 병합 완료
+
+
+
+2. rebase 충돌 해결하기
+conflict-2에서 git rebase main로 리베이스 시도하면 충돌 발생
+
+오류 메시지와 git status 확인
+VS Code에서 해당 부분 확인
+
+당장 충돌 해결이 어려울 경우 아래 명령어로 rebase 중단
+git rebase --abort
+
+해결 가능 시
+충돌 부분을 수정한 뒤 git add .
+아래 명령어로 계속
+git rebase --continue
+충돌이 모두 해결될 때까지 반복
+
+main에서 git merge conflict-2로 마무리
+
+
+conflict-1, conflict-2 삭제
+
+1. 브랜치 만들고 merge, rebase 하기
+to-merge, to-rebase 브랜치 생성
+
+상단의 브랜치 버튼 클릭
+왼쪽의 브랜치 탭에서 클릭하여 이동
+
+main 브랜치
+
+Tigers의 manager를 Brenda로 변경
+커밋 메시지: Edit Tigers manager
+
+to-merge 브랜치
+
+Tigers의 coach를 Ruth로 변경
+커밋 메시지: Edit Tigers coach
+
+to-rebase 브랜치
+
+Tigers의 memebers에 Tyler 추가
+커밋 메시지: Edit Tigers members
+
+⭐️ 브랜치를 이동하며 파일 살펴보기
+
+to-merge 브랜치 main으로 merge
+
+main에 위치한 뒤 to-merge 브랜치를 우클릭하여 Merge ... 클릭
+
+to-rebase 브랜치 main으로 rebase
+
+to-rebase에 위치한 뒤 main 브랜치를 우클릭하여 ... 재배치 클릭
+main에 위치한 뒤 to-rebase 브랜치를 우클릭하여 Merge ... 클릭
+
+main으로 이동 후 to-merge와 to-rebase 우클릭하여 삭제
+
+merge되지 않은 브랜치의 경우 강제 삭제 체크박스 선택
+
+
+2. merge 충돌 해결해보기
+💡 rebase는 충돌 가능시 CLI로 진행 권장
+
+
+conflict 브랜치 생성
+
+main 브랜치
+
+Tigers의 members에 Kim 추가
+커밋 메시지: Edit Kim to Tigers
+
+conflict 브랜치
+
+Tigers의 members에 Park 추가
+커밋 메시지: Edit Park to Tigers
+
+merge하여 충돌 해결해보기
+
+conflict 브랜치 삭제
+
+깃허브 비밀번호
+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
+
+git remote
+
