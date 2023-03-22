@@ -9,19 +9,19 @@
 
 ![](../header.png)
 
-# 관리자 계정
+### 관리자 계정
 
 ID : admin1@gmail.com<br>
 PA : Qwer1234! <br>
 ID : admin2@gmail.com<br>
 PA : Qwer1234! <br>
-# 일반유저 계정
+### 일반유저 계정
 
 ID : member1@gmail.com <br>
 PA : Qwer1234! <br>
-ID : member2@gmail.com
+ID : member2@gmail.com <br>
 PA : Qwer1234!
-
+<br><br>
 해당계정의 비밀번호를 변경하는 행위는 삼가주시기 바랍니다.
 
 ## 사업소개
