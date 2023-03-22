@@ -11,20 +11,20 @@
 
 ## 오픈 계정
 
-
-
 <details>
-<summary>관리자계정</summary>
-  
+<summary>계정보기</summary>
+* 관리자 1 
 ID : admin1@gmail.com<br>
-PA : Qwer1234! <br>
+PA : Qwer1234! 
+* 관리자 2
 ID : admin2@gmail.com<br>
 PA : Qwer1234! <br>
 
 
-<summary>일반계정계정</summary>
+* 일반유저 1
 ID : member1@gmail.com <br>
-PA : Qwer1234! <br>
+PA : Qwer1234!
+* 일반유저 2
 ID : member2@gmail.com <br>
 PA : Qwer1234!
 <br><br>
