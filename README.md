@@ -7,7 +7,8 @@
 
 한 두 문단으로 프로젝트 소개 글을 작성합니다.
 
-![](../header.png)
+![메인페이지](https://user-images.githubusercontent.com/119803774/227048650-d7196e1b-71d7-45a3-9eee-79b1c5008a9d.JPG)
+
 
 ### 관리자 계정
 
