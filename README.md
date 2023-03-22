@@ -1,11 +1,11 @@
-# 프로젝트명
+# MEOW ME YOU 프로젝트
 > 간략한 프로젝트 소개 문구를 작성합니다.
 
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 
-한 두 문단으로 프로젝트 소개 글을 작성합니다.
+고양이 분양 및 후원하기 페이지 입니다.
 
 ![메인페이지](https://user-images.githubusercontent.com/119803774/227048650-d7196e1b-71d7-45a3-9eee-79b1c5008a9d.JPG)
 
