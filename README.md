@@ -9,25 +9,25 @@
 
 ![](../header.png)
 
-## 설치 방법
+## 관리자 계정
 
-OS X & 리눅스:
+ID : admin1@gmail.com
+PA : Qwer1234!
+ID : admin2@gmail.com
+PA : Qwer1234!
 
-```sh
-npm install my-crazy-module --save
-```
+## 일반유저 계정
 
-윈도우:
+ID : member1@gmail.com
+PA : Qwer1234!
+ID : member2@gmail.com
+PA : Qwer1234!
 
-```sh
-edit autoexec.bat
-```
+해당계정의 비밀번호를 변경하는 행위는 삼가주시기 바랍니다.
 
-## 사용 예제
+## 사업소개
 
-스크린 샷과 코드 예제를 통해 사용 방법을 자세히 설명합니다.
-
-_더 많은 예제와 사용법은 [Wiki][wiki]를 참고하세요._
+사업소개 페이지는 로그인하지 않아도 볼 수 있습니다.
 
 ## 개발 환경 설정
 
