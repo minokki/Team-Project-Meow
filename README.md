@@ -13,18 +13,19 @@
 
 <details>
 <summary>계정보기</summary>
-* 관리자 1 
+  
+* 관리자 1  <br>
 ID : admin1@gmail.com<br>
 PA : Qwer1234! 
-* 관리자 2
+* 관리자 2 <br>
 ID : admin2@gmail.com<br>
-PA : Qwer1234! <br>
+PA : Qwer1234!
 
 
-* 일반유저 1
+* 일반유저 1 <br>
 ID : member1@gmail.com <br>
 PA : Qwer1234!
-* 일반유저 2
+* 일반유저 2 <br>
 ID : member2@gmail.com <br>
 PA : Qwer1234!
 <br><br>
