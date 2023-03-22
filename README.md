@@ -25,9 +25,9 @@ ID : member2@gmail.com <br>
 PA : Qwer1234!
 <br><br>
 해당계정의 비밀번호를 변경하는 행위는 삼가주시기 바랍니다.
-<details>
-## 페이지 기능
 
+## 페이지 
+<details>
 <summary>기능보기</summary>
 
 <!--summary 아래 빈칸 공백 두고 내용을 적는공간-->
