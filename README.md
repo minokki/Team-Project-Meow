@@ -42,9 +42,9 @@ PA : Qwer1234!
 > ## 📺 화면 구성 
 | **메인 페이지**  |  **로그인 페이지**   |
 | :-------------------------------------------: | :------------: |
-|  <img width="329" src="https://user-images.githubusercontent.com/50205887/208036155-a57900f7-c68a-470d-923c-ff3c296ea635.png"/> |  <img width="329" src="https://user-images.githubusercontent.com/50205887/208036645-a76cf400-85bc-4fa2-af72-86d2abf61366.png"/>|  
+|  <img width="329" src="https://user-images.githubusercontent.com/50205887/208036155-a57900f7-c68a-470d-923c-ff3c296ea635.png"/> |  <img width="329" src="https://user-images.githubusercontent.com/119803774/227062710-85842395-3f8d-4bd5-b54b-5d30f2893bd9.png"/>|  
 | **커뮤니티 페이지**   |  **후원하기 페이지**   |  
-| <img width="329" src="https://user-images.githubusercontent.com/50205887/208038737-2b32b7d2-25f4-4949-baf5-83b5c02915a3.png"/>   |  <img width="329" src="https://user-images.githubusercontent.com/50205887/208038965-43a6318a-7b05-44bb-97c8-b08b0495fba7.png"/>     |
+| <img width="329" src="https://user-images.githubusercontent.com/119803774/227062723-0361202d-9822-40c2-bf03-4c83ee1b8c9a.png"/>   |  <img width="329" src="https://user-images.githubusercontent.com/119803774/227062716-70413fde-85e5-4553-8743-fe9ee78fa957.png"/>     |
 
 <br>
 
