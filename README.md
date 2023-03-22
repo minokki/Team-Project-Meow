@@ -1,15 +1,19 @@
-# MEOW ME YOU 프로젝트
+# MEOW ,ME YOU 프로젝트
 > 간략한 프로젝트 소개 문구를 작성합니다.
-
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
 
 고양이 분양 및 후원하기 페이지 입니다.
 
 ![메인페이지](https://user-images.githubusercontent.com/119803774/227048650-d7196e1b-71d7-45a3-9eee-79b1c5008a9d.JPG)
 
-## 오픈 계정
+<br>
+
+> ### 홈페이지 주소 : http://meowmeyou.com/
+
+<br>
+
+
+
+> ## ⭐️ 오픈 계정
 
 <details>
 <summary>계정보기</summary>
@@ -29,17 +33,27 @@ PA : Qwer1234!
 ID : member2@gmail.com <br>
 PA : Qwer1234!
 <br><br>
-해당계정의 비밀번호를 변경하는 행위는 삼가주시기 바랍니다.
+**해당계정의 비밀번호를 변경하는 행위는 삼가주시기 바랍니다.**
   
   </details>
+<br>
 
-## 페이지 
+
+
+> ## 📺 화면 구성 
+| 메인 페이지  |  소개 페이지   |
+| :-------------------------------------------: | :------------: |
+|  <img width="329" src="https://user-images.githubusercontent.com/50205887/208036155-a57900f7-c68a-470d-923c-ff3c296ea635.png"/> |  <img width="329" src="https://user-images.githubusercontent.com/50205887/208036645-a76cf400-85bc-4fa2-af72-86d2abf61366.png"/>|  
+| 강좌 소개 페이지   |  강의 영상 페이지   |  
+| <img width="329" src="https://user-images.githubusercontent.com/50205887/208038737-2b32b7d2-25f4-4949-baf5-83b5c02915a3.png"/>   |  <img width="329" src="https://user-images.githubusercontent.com/50205887/208038965-43a6318a-7b05-44bb-97c8-b08b0495fba7.png"/>     |
+
+<br>
+
+> ## ⭐️ 페이지 기능
 <details>
 <summary>기능보기</summary>
 
 <!--summary 아래 빈칸 공백 두고 내용을 적는공간-->
-자세한 내용은 더보기 버튼으로 가려둘 수 있음
-
 
 
 ### <사업소개>
@@ -107,42 +121,22 @@ PA : Qwer1234!
 * 사진 업로드 시 용량 제한이 있습니다. 1장당 5MB, 5장을 초과할 수 없으며 사진파일의 전체 크기는 20MB를 초과할 수 없습니다.
 
   </details>
-## 데이터베이스
+  
 
-* 0.2.1![데이터베이스](https://user-images.githubusercontent.com/119803774/227050720-c83c7356-8e2c-49a6-af98-d9d1fb734bf6.png)
+<br>
+  
+> ## ⭐️ 데이터베이스 설계(ERD)
 
-    * 수정: 문서 업데이트 (모듈 코드 동일)
-* 0.2.0
-    * 수정: `setDefaultXYZ()` 메서드 제거
-    * 추가: `init()` 메서드 추가
-* 0.1.1
-    * 버그 수정: `baz()` 메서드 호출 시 부팅되지 않는 현상 (@컨트리뷰터 감사합니다!)
-* 0.1.0
-    * 첫 출시
-    * 수정: `foo()` 메서드 네이밍을 `bar()`로 수정
-* 0.0.1
-    * 작업 진행 중
+![데이터베이스](https://user-images.githubusercontent.com/119803774/227050720-c83c7356-8e2c-49a6-af98-d9d1fb734bf6.png)
 
-## 정보
+<br>
 
-이름 – [@트위터 주소](https://twitter.com/dbader_org) – 이메일주소@example.com
+   
+> ## ⭐️ 개발 환경
+  ![image](https://user-images.githubusercontent.com/119803774/227055607-e4480d28-cc67-4faa-af74-23981659b119.png)
 
-XYZ 라이센스를 준수하며 ``LICENSE``에서 자세한 정보를 확인할 수 있습니다.
+  ---
+  
 
-[https://github.com/yourname/github-link](https://github.com/dbader/)
 
-## 기여 방법
-
-1. (<https://github.com/yourname/yourproject/fork>)을 포크합니다.
-2. (`git checkout -b feature/fooBar`) 명령어로 새 브랜치를 만드세요.
-3. (`git commit -am 'Add some fooBar'`) 명령어로 커밋하세요.
-4. (`git push origin feature/fooBar`) 명령어로 브랜치에 푸시하세요. 
-5. 풀리퀘스트를 보내주세요.
-
-<!-- Markdown link & img dfn's -->
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
-[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-[wiki]: https://github.com/yourname/yourproject/wiki
+**팀 프로젝트 meow me, you에 접속해주셔서 감사합니다.**
