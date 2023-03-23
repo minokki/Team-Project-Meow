@@ -4,27 +4,28 @@
 
 ![메인페이지](https://user-images.githubusercontent.com/119803774/227048650-d7196e1b-71d7-45a3-9eee-79b1c5008a9d.JPG)
 
+
+> ## 👪 도원결의 팀원
+
+<table>
+  <tbody>
+    <tr>
+      <td align="center"><a href="https://github.com/Junhee1412"><img src="https://user-images.githubusercontent.com/119803774/227383772-7850f360-259b-4092-87f0-8f6ffa123016.jpg" width="200px;" alt=""/><br /><sub><b> 팀장 : 안준희 </b></sub></a><br /></td>
+      <td align="center"><a href="https://github.com/juhee1020"><img src="https://user-images.githubusercontent.com/119803774/227383775-d024e611-cdaf-44f0-974f-a423e4cdfc15.png" width="200px;" alt=""/><br /><sub><b> 팀원 : 안주희 </b></sub></a><br /></td>
+      <td align="center"><a href="https://github.com/minokki"><img src="https://user-images.githubusercontent.com/119803774/227383778-c785f9da-dc51-43a5-a183-a6f35fa46fb2.jpg" width="200px;" alt=""/><br /><sub><b> 팀원 : 고민호 </b></sub></a><br /></td>
+     <tr/>
+      <td align="center"><sub><b> 기능구현 : 화면구현,DB설계,후원,코드취합 </b></sub></a><br /></td>
+      <td align="center"><sub><b> 기능구현 : 로그인,회원가입, 관리자, 커뮤니티(좋아요)</b></sub></a><br /></td>
+      <td align="center"><sub><b> 기능구현 : 화면구현,커뮤니티(업로드,검색,댓글)</b></sub></a><br /></td>
+    </tr>
+  </tbody>
+</table>
+
 <br>
 
 > ### 홈페이지 주소 : http://meowmeyou.com/
 
 <br>
-
-<table>
-  <tbody>
-    <tr>
-      <td align="center"><a href="https://github.com/Junhee1412"><img src="" width="100px;" alt=""/><br /><sub><b> 팀장 : 안준희 </b></sub></a><br /></td>
-      <td align="center"><a href="https://github.com/juhee1020"><img src="" width="100px;" alt=""/><br /><sub><b> 팀원 : 안주희 </b></sub></a><br /></td>
-      <td align="center"><a href="https://github.com/minokki"><img src="" width="100px;" alt=""/><br /><sub><b> 팀원 : 고민호 </b></sub></a><br /></td>
-     <tr/>
-      <td align="center"><a href=""><img src="" width="100px;" alt=""/><br /><sub><b>BE 기능구현 :ㅁㄴㅇㄻㄴㅇㄻㄴㅇㄹㄴㅇㄹ </b></sub></a><br /></td>
-      <td align="center"><a href=""><img src="" width="100px;" alt=""/><br /><sub><b>BE 팀원 : </b></sub></a><br /></td>
-      <td align="center"><a href=""><img src="" width="100px;" alt=""/><br /><sub><b>BE 팀원 : </b></sub></a><br /></td>
-    </tr>
-  </tbody>
-</table>
-
-
 
 > ## 🔑 오픈 계정
 
@@ -139,8 +140,8 @@ PA : Qwer1234!
 <br>
   
 > ## 📕 데이터베이스 설계(ERD)
+![db](https://user-images.githubusercontent.com/119803774/227385028-e18b4941-c321-4338-934c-b2835cfa8582.png)
 
-![데이터베이스](https://user-images.githubusercontent.com/119803774/227050720-c83c7356-8e2c-49a6-af98-d9d1fb734bf6.png)
 
 <br>
 
