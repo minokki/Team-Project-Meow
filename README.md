@@ -151,10 +151,13 @@ PA : Qwer1234!
 
 <br>
 
-> ## 🔨 문제해결
-[
-[https://experienced-violet-afd.notion.site/a037409bf8704f57a3e3682f3c742200](https://www.notion.so/a037409bf8704f57a3e3682f3c742200?pvs=4)](https://experienced-violet-afd.notion.site/a037409bf8704f57a3e3682f3c742200)
-  ---
+> ## 🔧 문제해결
+### 프로젝트 진행시 발생한 문제해결 👉 [ 노션링크, 고민호 ](https://experienced-violet-afd.notion.site/a037409bf8704f57a3e3682f3c742200)
+
+  
+  <br>
+  
+---
   
 
 
