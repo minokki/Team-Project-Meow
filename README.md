@@ -153,7 +153,7 @@ PA : Qwer1234!
 
 > ## 🔨 문제해결
 
-https://experienced-violet-afd.notion.site/a037409bf8704f57a3e3682f3c742200
+[https://experienced-violet-afd.notion.site/a037409bf8704f57a3e3682f3c742200](https://www.notion.so/a037409bf8704f57a3e3682f3c742200?pvs=4)
   ---
   
 
