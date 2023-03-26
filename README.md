@@ -149,6 +149,11 @@ PA : Qwer1234!
 > ## 🔨 개발 환경
   ![image](https://user-images.githubusercontent.com/119803774/227055607-e4480d28-cc67-4faa-af74-23981659b119.png)
 
+<br>
+
+> ## 🔨 문제해결
+
+https://experienced-violet-afd.notion.site/a037409bf8704f57a3e3682f3c742200
   ---
   
 
