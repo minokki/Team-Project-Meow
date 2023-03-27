@@ -140,7 +140,10 @@ PA : Qwer1234!
 <br>
   
 > ## 📕 데이터베이스 설계(ERD)
+
+![db](https://user-images.githubusercontent.com/119803774/227838838-4901a2a8-4597-492a-adc9-8cf87725f79a.png)
 ![erd](https://user-images.githubusercontent.com/119803774/227768904-d2b5da2a-affb-4db0-908b-db9e4595bce5.png)
+
 
 
 
